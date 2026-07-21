@@ -611,6 +611,33 @@
         <mxCell id="fXZoLBTZdYtHPpYVtO70-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="rst_n" vertex="1">
           <mxGeometry height="20" width="50" x="220" y="180" as="geometry" />
         </mxCell>
+        <mxCell id="VAVcrOQZbDeR2DRLSXw2-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAVcrOQZbDeR2DRLSXw2-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="340" as="sourcePoint" />
+            <mxPoint x="280" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAVcrOQZbDeR2DRLSXw2-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="i_enc" vertex="1">
+          <mxGeometry height="20" width="50" x="220" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VAVcrOQZbDeR2DRLSXw2-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="369.83" as="sourcePoint" />
+            <mxPoint x="280" y="369.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAVcrOQZbDeR2DRLSXw2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="clk" vertex="1">
+          <mxGeometry height="20" width="50" x="220" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VAVcrOQZbDeR2DRLSXw2-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="rst_n" vertex="1">
+          <mxGeometry height="20" width="50" x="220" y="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
