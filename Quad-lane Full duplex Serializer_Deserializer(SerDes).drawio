@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="5">
+<mxfile host="app.diagrams.net" pages="6">
   <diagram name="SerDes Block Diagram" id="W4ALeMc_fcv-iuW4_5jM">
     <mxGraphModel dx="654" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -533,6 +533,20 @@
         </mxCell>
         <mxCell id="6H31x1Nu35Kd_6djOqIf-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="serial_i_4" vertex="1">
           <mxGeometry height="30" width="70" x="170" y="535" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LtfCEwQRb_0pcri6VYEg" name="CTL">
+    <mxGraphModel dx="541" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G8Zy-LlNMrhHeW_77g2g-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Serializer CTL" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wIeQdBnEv0pdlUBdbEon-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deserializer CTL" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
