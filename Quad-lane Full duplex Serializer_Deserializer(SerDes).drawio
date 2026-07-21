@@ -546,7 +546,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4sdpeompC0_zFdnh-VaF-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=318;" value="bit_count == 10" vertex="1">
-          <mxGeometry height="30" width="100" x="210" y="260" as="geometry" />
+          <mxGeometry height="20" width="100" x="213.35" y="268.72" as="geometry" />
+        </mxCell>
+        <mxCell id="4sdpeompC0_zFdnh-VaF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="trans" vertex="1">
+          <mxGeometry height="20" width="50" x="250" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
