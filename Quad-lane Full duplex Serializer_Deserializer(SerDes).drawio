@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="3">
+<mxfile host="app.diagrams.net" pages="4">
   <diagram name="SerDes Block Diagram" id="W4ALeMc_fcv-iuW4_5jM">
     <mxGraphModel dx="637" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -297,7 +297,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xj6hvQzYHJ6Y6QKgor_t" name="Deserializer">
-    <mxGraphModel dx="374" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -509,6 +509,23 @@
         </mxCell>
         <mxCell id="KodPqWTuBWEgRH-Iei6Q-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8 bit [7:0]" vertex="1">
           <mxGeometry height="30" width="70" x="560" y="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EmpDpsy_r7q6UUkdSIuZ" name="FSM">
+    <mxGraphModel dx="314" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EW58-9rXSnDX6RP6FTQy-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="IDLE" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EW58-9rXSnDX6RP6FTQy-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ENCODER" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EW58-9rXSnDX6RP6FTQy-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="LOAD" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
