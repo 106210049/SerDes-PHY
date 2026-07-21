@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="W4ALeMc_fcv-iuW4_5jM">
-    <mxGraphModel dx="527" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="764" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,16 +70,16 @@
             <mxPoint x="120" y="439.65999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="13rOEOkUA4Yrk083lLE4-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="32 bit input" vertex="1">
+        <mxCell id="13rOEOkUA4Yrk083lLE4-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="32 bit input" vertex="1">
           <mxGeometry height="80" width="40" x="80" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="13rOEOkUA4Yrk083lLE4-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="32 bit output" vertex="1">
+        <mxCell id="13rOEOkUA4Yrk083lLE4-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="32 bit output" vertex="1">
           <mxGeometry height="80" width="40" x="80" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="13rOEOkUA4Yrk083lLE4-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="32 bit output" vertex="1">
+        <mxCell id="13rOEOkUA4Yrk083lLE4-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="32 bit output" vertex="1">
           <mxGeometry height="80" width="40" x="680" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="13rOEOkUA4Yrk083lLE4-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="32 bit input" vertex="1">
+        <mxCell id="13rOEOkUA4Yrk083lLE4-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="32 bit input" vertex="1">
           <mxGeometry height="80" width="40" x="680" y="400" as="geometry" />
         </mxCell>
       </root>
