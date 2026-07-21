@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="6">
   <diagram name="SerDes Block Diagram" id="W4ALeMc_fcv-iuW4_5jM">
-    <mxGraphModel dx="654" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,12 @@
         </mxCell>
         <mxCell id="13rOEOkUA4Yrk083lLE4-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4 bit lane" vertex="1">
           <mxGeometry height="30" width="60" x="370" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYiBdqm3hBiFLX8fkEW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SERDES PHY 0" vertex="1">
+          <mxGeometry height="30" width="100" x="210" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mlYiBdqm3hBiFLX8fkEW-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SERDES PHY 1" vertex="1">
+          <mxGeometry height="30" width="100" x="490" y="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
