@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="4">
   <diagram name="SerDes Block Diagram" id="W4ALeMc_fcv-iuW4_5jM">
-    <mxGraphModel dx="637" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="654" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="13rOEOkUA4Yrk083lLE4-3" edge="1" parent="1" source="13rOEOkUA4Yrk083lLE4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D67Tu_U39foHL8RCta2M-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13rOEOkUA4Yrk083lLE4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="FSM" vertex="1">
+        <mxCell id="13rOEOkUA4Yrk083lLE4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="CTL" vertex="1">
           <mxGeometry height="40" width="60" x="230" y="320" as="geometry" />
         </mxCell>
         <mxCell id="13rOEOkUA4Yrk083lLE4-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Deserializer" vertex="1">
@@ -43,7 +43,7 @@
         <mxCell id="13rOEOkUA4Yrk083lLE4-7" edge="1" parent="1" source="13rOEOkUA4Yrk083lLE4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="13rOEOkUA4Yrk083lLE4-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13rOEOkUA4Yrk083lLE4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="FSM" vertex="1">
+        <mxCell id="13rOEOkUA4Yrk083lLE4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="CTL" vertex="1">
           <mxGeometry height="40" width="60" x="510" y="320" as="geometry" />
         </mxCell>
         <mxCell id="13rOEOkUA4Yrk083lLE4-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -537,7 +537,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="EmpDpsy_r7q6UUkdSIuZ" name="CTL">
+  <diagram id="EmpDpsy_r7q6UUkdSIuZ" name="CTL FSM">
     <mxGraphModel dx="449" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
