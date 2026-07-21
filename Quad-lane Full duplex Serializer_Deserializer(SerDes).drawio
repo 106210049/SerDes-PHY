@@ -538,7 +538,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LtfCEwQRb_0pcri6VYEg" name="CTL">
-    <mxGraphModel dx="541" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="374" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -547,6 +547,24 @@
         </mxCell>
         <mxCell id="wIeQdBnEv0pdlUBdbEon-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deserializer CTL" vertex="1">
           <mxGeometry height="80" width="120" x="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="X-qPLqKzp9THK4t3gmV8-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="180" as="sourcePoint" />
+            <mxPoint x="440" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-qPLqKzp9THK4t3gmV8-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="199.76" as="sourcePoint" />
+            <mxPoint x="440" y="199.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-qPLqKzp9THK4t3gmV8-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
