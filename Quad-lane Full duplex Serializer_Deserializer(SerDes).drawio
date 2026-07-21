@@ -19,6 +19,21 @@
         <mxCell id="13rOEOkUA4Yrk083lLE4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FSM" vertex="1">
           <mxGeometry height="40" width="60" x="230" y="320" as="geometry" />
         </mxCell>
+        <mxCell id="13rOEOkUA4Yrk083lLE4-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="Serializer" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="13rOEOkUA4Yrk083lLE4-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="Deserializer" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="13rOEOkUA4Yrk083lLE4-6" edge="1" parent="1" source="13rOEOkUA4Yrk083lLE4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="13rOEOkUA4Yrk083lLE4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13rOEOkUA4Yrk083lLE4-7" edge="1" parent="1" source="13rOEOkUA4Yrk083lLE4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="13rOEOkUA4Yrk083lLE4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13rOEOkUA4Yrk083lLE4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FSM" vertex="1">
+          <mxGeometry height="40" width="60" x="510" y="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
