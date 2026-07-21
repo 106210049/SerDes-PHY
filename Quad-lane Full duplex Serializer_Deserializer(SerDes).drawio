@@ -514,7 +514,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EmpDpsy_r7q6UUkdSIuZ" name="FSM">
-    <mxGraphModel dx="314" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="541" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -624,6 +624,12 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="380" y="190" as="sourcePoint" />
             <mxPoint x="430" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sdpeompC0_zFdnh-VaF-38" edge="1" parent="1" source="4sdpeompC0_zFdnh-VaF-31" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="4sdpeompC0_zFdnh-VaF-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="620" as="sourcePoint" />
+            <mxPoint x="270" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
