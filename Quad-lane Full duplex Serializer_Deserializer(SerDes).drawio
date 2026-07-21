@@ -542,10 +542,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="G8Zy-LlNMrhHeW_77g2g-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Serializer CTL" vertex="1">
+        <mxCell id="_CrQV-zDCVkHGZZEceEw-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="320" width="160" x="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="G8Zy-LlNMrhHeW_77g2g-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Serializer CTL" vertex="1">
           <mxGeometry height="120" width="120" x="280" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="wIeQdBnEv0pdlUBdbEon-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Deserializer CTL" vertex="1">
+        <mxCell id="wIeQdBnEv0pdlUBdbEon-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Deserializer CTL" vertex="1">
           <mxGeometry height="120" width="120" x="280" y="280" as="geometry" />
         </mxCell>
         <mxCell id="X-qPLqKzp9THK4t3gmV8-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
