@@ -92,7 +92,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SM-vHWCTu8mX1VBDOvTN" name="Serializer">
-    <mxGraphModel dx="218" dy="307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="449" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -309,7 +309,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xj6hvQzYHJ6Y6QKgor_t" name="Deserializer">
-    <mxGraphModel dx="541" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="654" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -521,6 +521,18 @@
         </mxCell>
         <mxCell id="KodPqWTuBWEgRH-Iei6Q-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8 bit [7:0]" vertex="1">
           <mxGeometry height="30" width="70" x="560" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="6H31x1Nu35Kd_6djOqIf-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="serial_i_1" vertex="1">
+          <mxGeometry height="30" width="70" x="170" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="6H31x1Nu35Kd_6djOqIf-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="serial_i_2" vertex="1">
+          <mxGeometry height="30" width="70" x="170" y="374.9" as="geometry" />
+        </mxCell>
+        <mxCell id="6H31x1Nu35Kd_6djOqIf-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="serial_i_3" vertex="1">
+          <mxGeometry height="30" width="70" x="170" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="6H31x1Nu35Kd_6djOqIf-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="serial_i_4" vertex="1">
+          <mxGeometry height="30" width="70" x="170" y="535" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
