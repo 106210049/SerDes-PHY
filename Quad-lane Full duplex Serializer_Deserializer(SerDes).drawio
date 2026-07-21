@@ -92,7 +92,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SM-vHWCTu8mX1VBDOvTN" name="Serializer">
-    <mxGraphModel dx="637" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="306" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,14 +120,34 @@
         <mxCell id="pC2hHluhtUZVfC5RP3EN-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="8b_10b encoder" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="400" as="geometry" />
         </mxCell>
+        <mxCell id="89ZLC0GaL6CsAaurwa_B-12" edge="1" parent="1" source="pC2hHluhtUZVfC5RP3EN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pC2hHluhtUZVfC5RP3EN-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="PISO" vertex="1">
           <mxGeometry height="60" width="120" x="400" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="89ZLC0GaL6CsAaurwa_B-13" edge="1" parent="1" source="pC2hHluhtUZVfC5RP3EN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pC2hHluhtUZVfC5RP3EN-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="PISO" vertex="1">
           <mxGeometry height="60" width="120" x="400" y="240" as="geometry" />
         </mxCell>
+        <mxCell id="89ZLC0GaL6CsAaurwa_B-14" edge="1" parent="1" source="pC2hHluhtUZVfC5RP3EN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pC2hHluhtUZVfC5RP3EN-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="PISO" vertex="1">
           <mxGeometry height="60" width="120" x="400" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="89ZLC0GaL6CsAaurwa_B-15" edge="1" parent="1" source="pC2hHluhtUZVfC5RP3EN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pC2hHluhtUZVfC5RP3EN-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="PISO" vertex="1">
           <mxGeometry height="60" width="120" x="400" y="400" as="geometry" />
