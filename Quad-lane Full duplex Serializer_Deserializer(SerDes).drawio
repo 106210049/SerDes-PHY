@@ -92,18 +92,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SM-vHWCTu8mX1VBDOvTN" name="Serializer">
-    <mxGraphModel dx="527" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="306" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pC2hHluhtUZVfC5RP3EN-9" edge="1" parent="1" source="pC2hHluhtUZVfC5RP3EN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" target="pC2hHluhtUZVfC5RP3EN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pC2hHluhtUZVfC5RP3EN-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pC2hHluhtUZVfC5RP3EN-11" edge="1" parent="1" source="pC2hHluhtUZVfC5RP3EN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="pC2hHluhtUZVfC5RP3EN-6" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pC2hHluhtUZVfC5RP3EN-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="240" as="geometry" />
         </mxCell>
+        <mxCell id="pC2hHluhtUZVfC5RP3EN-12" edge="1" parent="1" source="pC2hHluhtUZVfC5RP3EN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="pC2hHluhtUZVfC5RP3EN-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pC2hHluhtUZVfC5RP3EN-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pC2hHluhtUZVfC5RP3EN-13" edge="1" parent="1" source="pC2hHluhtUZVfC5RP3EN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" target="pC2hHluhtUZVfC5RP3EN-8" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pC2hHluhtUZVfC5RP3EN-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="400" as="geometry" />
