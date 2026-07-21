@@ -92,7 +92,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SM-vHWCTu8mX1VBDOvTN" name="Serializer">
-    <mxGraphModel dx="306" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="437" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,12 +153,12 @@
           <mxGeometry height="60" width="120" x="400" y="400" as="geometry" />
         </mxCell>
         <mxCell id="89ZLC0GaL6CsAaurwa_B-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="32 bit input" vertex="1">
-          <mxGeometry height="80" width="40" x="80" y="260" as="geometry" />
+          <mxGeometry height="80" width="40" x="80" y="270" as="geometry" />
         </mxCell>
         <mxCell id="89ZLC0GaL6CsAaurwa_B-3" edge="1" parent="1" source="89ZLC0GaL6CsAaurwa_B-1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="150" y="310" as="sourcePoint" />
-            <mxPoint x="160" y="300" as="targetPoint" />
+            <mxPoint x="160" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="89ZLC0GaL6CsAaurwa_B-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" value="">
