@@ -527,6 +527,9 @@
         <mxCell id="EW58-9rXSnDX6RP6FTQy-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="LOAD" vertex="1">
           <mxGeometry height="80" width="120" x="320" y="320" as="geometry" />
         </mxCell>
+        <mxCell id="EW58-9rXSnDX6RP6FTQy-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SHIFT" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
