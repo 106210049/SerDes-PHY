@@ -297,7 +297,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xj6hvQzYHJ6Y6QKgor_t" name="Deserializer">
-    <mxGraphModel dx="373" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="312" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -464,6 +464,9 @@
             <mxPoint x="600" y="430" as="sourcePoint" />
             <mxPoint x="640" y="430" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0dXxwzbn42iffygLzoBh-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="32 bit output" vertex="1">
+          <mxGeometry height="80" width="40" x="640" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
