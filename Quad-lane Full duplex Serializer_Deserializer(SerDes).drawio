@@ -315,23 +315,23 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xj6hvQzYHJ6Y6QKgor_t" name="Deserializer">
-    <mxGraphModel dx="654" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="596" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0dXxwzbn42iffygLzoBh-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
           <mxGeometry height="360" width="350" x="260" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="9Eho-R_DtEHTD2qOrNkG-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="8b_10b decoder" vertex="1">
+        <mxCell id="9Eho-R_DtEHTD2qOrNkG-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="10b_8b decoder" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="9Eho-R_DtEHTD2qOrNkG-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="8b_10b decoder" vertex="1">
+        <mxCell id="9Eho-R_DtEHTD2qOrNkG-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="10b_8b decoder" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="9Eho-R_DtEHTD2qOrNkG-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="8b_10b decoder" vertex="1">
+        <mxCell id="9Eho-R_DtEHTD2qOrNkG-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="10b_8b decoder" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="9Eho-R_DtEHTD2qOrNkG-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="8b_10b decoder" vertex="1">
+        <mxCell id="9Eho-R_DtEHTD2qOrNkG-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="10b_8b decoder" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="520" as="geometry" />
         </mxCell>
         <mxCell id="9Eho-R_DtEHTD2qOrNkG-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" value="">
