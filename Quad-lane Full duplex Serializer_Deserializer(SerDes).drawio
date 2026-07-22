@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="8">
+<mxfile host="app.diagrams.net" pages="7">
   <diagram name="SerDes Block Diagram" id="W4ALeMc_fcv-iuW4_5jM">
     <mxGraphModel dx="1426" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -665,14 +665,6 @@
             <mxPoint x="440" y="359.83" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="EmpDpsy_r7q6UUkdSIuZ" name="CTL FSM">
-    <mxGraphModel dx="719" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
