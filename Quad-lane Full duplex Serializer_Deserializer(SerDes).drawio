@@ -686,7 +686,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jHjnjgWSTuR2YLcnQkyU" name="Serializer CTL">
-    <mxGraphModel dx="374" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="314" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -844,6 +844,15 @@
         </mxCell>
         <mxCell id="wPEnRKYGH-Ys-N9gmaMN-2" parent="1" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
           <mxGeometry height="20" width="20" x="520" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="wPEnRKYGH-Ys-N9gmaMN-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="539.88" as="sourcePoint" />
+            <mxPoint x="200" y="539.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPEnRKYGH-Ys-N9gmaMN-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="rst_n" vertex="1">
+          <mxGeometry height="20" width="27.5" x="130" y="530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
