@@ -870,7 +870,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RA9ZXnU3A7KwzoOKKHu5" name="Deserializer CTL">
-    <mxGraphModel dx="1875" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="990" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -930,6 +930,12 @@
         </mxCell>
         <mxCell id="CXywEZy6pE1Ul9TDZ66E-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="!i_dec" vertex="1">
           <mxGeometry height="20" width="50" x="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8EZFRt9-cIKhZJ2KxYkx-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;deserializer_counter&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aAdiMUV_-0-XvrBa2DU7-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;deserializer_fsm&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="400" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
