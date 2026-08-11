@@ -9,7 +9,7 @@ Step 1: Open QuestaSim on Terminal: vsim
 
 Step 2: Run regression test: do run.do
 
-🧪 Các testcase
+🧪 Testcases
 serdes_random_test: Generage random payload.
 
 serdes_zero_test: Verify test with payload = 0.
