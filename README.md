@@ -36,4 +36,4 @@ Dir: src_A, src_B.
 Cross coverage: kết hợp payload và hướng truyền.
 
 ## SerDes High Level Block
-![SerDes Architecture](Image/Quad-lane Full duplex Serializer_Deserializer(SerDes)-SerDes Block Diagram.drawio.png)
+ <img src="Image/Quad-lane Full duplex Serializer_Deserializer(SerDes)-SerDes Block Diagram.drawio.png" width="700" >  
