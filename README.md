@@ -8,6 +8,7 @@ All the system verilog design files of various sub components, encoder(8b/10b) ,
 ## 📂 Folder Organizer
 
 SerDes-PHY/
+
 ├── RTL/                # RTL code for SerDes PHY
 
 ├── TB/                 # Testbench UVM
