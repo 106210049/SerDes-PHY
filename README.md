@@ -2,17 +2,6 @@
 
 Dự án **SerDes-PHY** mô phỏng và kiểm thử giao tiếp Serializer/Deserializer (SerDes) ở mức RTL, sử dụng **SystemVerilog + UVM** để xây dựng testbench và regression.
 
-## 📂 Cấu trúc thư mục
-SerDes-PHY/
-├── RTL/                # Mã nguồn RTL của SerDes PHY
-├── TB/                 # Testbench UVM
-│   ├── tb/             # Top-level testbench
-│   ├── sequences/      # Các sequence cho test
-│   └── env/            # UVM environment
-├── scripts/            # Regression scripts (QuestaSim)
-├── docs/               # Tài liệu thiết kế
-└── images/             # Hình minh họa
-
 ## 🚀 Cách chạy regression
 
 1. **Compile UVM package và project**
