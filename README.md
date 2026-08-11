@@ -35,7 +35,5 @@ Dir: src_A, src_B.
 
 Cross coverage: kết hợp payload và hướng truyền.
 
-🖼️ Hình minh họa
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
-
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+## SerDes High Level Block
+![SerDes Architecture](Image/Quad-lane Full duplex Serializer_Deserializer(SerDes)-SerDes Block Diagram.drawio.png)
