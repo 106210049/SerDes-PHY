@@ -2,6 +2,25 @@
 
 The ***SerDes-PHY*** project simulates and verifies ***Serializer/Deserializer (SerDes) communication*** at the RTL level, ***using SystemVerilog and UVM*** to build the testbench and regression.
 This project is oriented towards the RTL design, verification using UVM of a Quad-lane Full duplex Serializer/Deserializer (SerDes).
+
+All the system verilog design files of various sub components, encoder(8b/10b) , PISO(10b), SIPO, decoder(10b/8b), and the TOP module along with a basic randomized testbenh are provided in the RTL folder. The SerDes.sv is the main SerDes design file, the Duplex_Top.sv file instantiaties this and connects the serializer with deserializer for verification purposes.
+
+## 📂 Folder Organizer
+
+SerDes-PHY/
+├── RTL/                # RTL code for SerDes PHY
+
+├── TB/                 # Testbench UVM
+
+│   ├── tb/             # Top-level testbench
+
+│   ├── sv/             # UVM environment
+
+│   ├── logs/           # folder with the run logs
+
+├── run.do              # Regression scripts (QuestaSim)
+
+
 ## 🚀 How to run regression
 
 1. **Compile UVM package and project**
@@ -30,7 +49,6 @@ Dir: src_A, src_B.
 
 Cross coverage: Combine payload and source direction.
 
-All the system verilog design files of various sub components, encoder(8b/10b) , PISO(10b), SIPO, decoder(10b/8b), and the TOP module along with a basic randomized testbenh are provided in the RTL folder. The SerDes.sv is the main SerDes design file, the Duplex_Top.sv file instantiaties this and connects the serializer with deserializer for verification purposes.
 
 ## SerDes High Level Block
  <img src="Image/Quad-lane Full duplex Serializer_Deserializer(SerDes)-SerDes Block Diagram.drawio.png" width="700" >  
