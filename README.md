@@ -2,9 +2,10 @@
 
 The ***SerDes-PHY*** project simulates and verifies ***Serializer/Deserializer (SerDes) communication*** at the RTL level, ***using SystemVerilog and UVM*** to build the testbench and regression.
 This project is oriented towards the RTL design, verification using UVM of a Quad-lane Full duplex Serializer/Deserializer (SerDes).
-## 🚀 Cách chạy regression
+## 🚀 How to run regression
 
 1. **Compile UVM package and project**
+
 Step 1: Open QuestaSim on Terminal: vsim
 
 Step 2: Run regression test: do run.do
