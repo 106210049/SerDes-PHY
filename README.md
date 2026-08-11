@@ -6,11 +6,12 @@ This project is oriented towards the RTL design, verification using UVM of a Qua
 
 1. **Compile UVM package and project**
 
-Step 1: Open QuestaSim on Terminal: vsim
+***Step 1:*** Open QuestaSim on Terminal: vsim
 
-Step 2: Run regression test: do run.do
+***Step 2:*** Run regression test: do run.do
 
-🧪 Testcases
+## 🧪 Testcases
+
 serdes_random_test: Generage random payload.
 
 serdes_zero_test: Verify test with payload = 0.
@@ -20,7 +21,9 @@ serdes_one_test: Verify test with payload = 0xFF.
 serdes_5_packet_test: Generage and send 5 packet continuosly.
 
 ## 📊 Coverage
+
 Project is using coverage report to evaluate the functional verification results
+
 Payload_A / Payload_B: bins zero, random, one.
 
 Dir: src_A, src_B.
