@@ -1,3 +1,4 @@
+#  log -r /*
 #  run -all
 # ----------------------------------------------------------------
 # UVM-1.1d
@@ -28,57 +29,57 @@
 # UVM_INFO .\TB\sv\serdes_driver.sv(21) @ 0: uvm_test_top.tb.serdes.agent.driver [serdes_driver] Driver is connected with interface
 # UVM_INFO .\TB\tb\serdes_test_lib.sv(26) @ 0: uvm_test_top [serdes_5_packet_test] End of Elaboration Phase of Test is being executed!
 # UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
-# ------------------------------------------------------------------
-# Name                           Type                    Size  Value
-# ------------------------------------------------------------------
-# uvm_test_top                   serdes_5_packet_test    -     @448 
-#   tb                           serdes_tb               -     @466 
-#     serdes                     serdes_env              -     @473 
-#       agent                    serdes_agent            -     @503 
-#         driver                 serdes_driver           -     @637 
-#           req_ap               uvm_analysis_port       -     @660 
-#             recording_detail   integral                32    'd1  
-#           rsp_port             uvm_analysis_port       -     @652 
-#             recording_detail   integral                32    'd1  
-#           seq_item_port        uvm_seq_item_pull_port  -     @644 
-#             recording_detail   integral                32    'd1  
-#           recording_detail     integral                32    'd1  
-#         monitor                serdes_monitor          -     @511 
-#           item_collected_port  uvm_analysis_port       -     @518 
-#             recording_detail   integral                32    'd1  
-#           recording_detail     integral                32    'd1  
-#         sequencer              serdes_sequencer        -     @528 
-#           rsp_export           uvm_analysis_export     -     @535 
-#             recording_detail   integral                32    'd1  
-#           seq_item_export      uvm_seq_item_pull_imp   -     @629 
-#             recording_detail   integral                32    'd1  
-#           recording_detail     integral                32    'd1  
-#           arbitration_queue    array                   0     -    
-#           lock_queue           array                   0     -    
-#           num_last_reqs        integral                32    'd1  
-#           num_last_rsps        integral                32    'd1  
-#         recording_detail       integral                32    'd1  
-#       recording_detail         integral                32    'd1  
-#     serdes_scb                 serdes_scoreboard       -     @480 
-#       exp_imp                  uvm_analysis_imp_exp    -     @487 
-#         recording_detail       integral                32    'd1  
-#       mon_imp                  uvm_analysis_imp_mon    -     @495 
-#         recording_detail       integral                32    'd1  
-#       recording_detail         integral                32    'd1  
-#     recording_detail           integral                32    'd1  
-# ------------------------------------------------------------------
+# -----------------------------------------------------------------
+# Name                          Type                    Size  Value
+# -----------------------------------------------------------------
+# uvm_test_top                  serdes_5_packet_test    -     @448 
+#   tb                          serdes_tb               -     @466 
+#     serdes                    serdes_env              -     @473 
+#       agent                   serdes_agent            -     @503 
+#         driver                serdes_driver           -     @645 
+#           rsp_port            uvm_analysis_port       -     @660 
+#             recording_detail  integral                32    'd1  
+#           seq_item_port       uvm_seq_item_pull_port  -     @652 
+#             recording_detail  integral                32    'd1  
+#           recording_detail    integral                32    'd1  
+#         monitor               serdes_monitor          -     @511 
+#           exp_ap              uvm_analysis_port       -     @518 
+#             recording_detail  integral                32    'd1  
+#           mon_ap              uvm_analysis_port       -     @526 
+#             recording_detail  integral                32    'd1  
+#           recording_detail    integral                32    'd1  
+#         sequencer             serdes_sequencer        -     @536 
+#           rsp_export          uvm_analysis_export     -     @543 
+#             recording_detail  integral                32    'd1  
+#           seq_item_export     uvm_seq_item_pull_imp   -     @637 
+#             recording_detail  integral                32    'd1  
+#           recording_detail    integral                32    'd1  
+#           arbitration_queue   array                   0     -    
+#           lock_queue          array                   0     -    
+#           num_last_reqs       integral                32    'd1  
+#           num_last_rsps       integral                32    'd1  
+#         recording_detail      integral                32    'd1  
+#       recording_detail        integral                32    'd1  
+#     serdes_scb                serdes_scoreboard       -     @480 
+#       exp_imp                 uvm_analysis_imp_exp    -     @487 
+#         recording_detail      integral                32    'd1  
+#       mon_imp                 uvm_analysis_imp_mon    -     @495 
+#         recording_detail      integral                32    'd1  
+#       recording_detail        integral                32    'd1  
+#     recording_detail          integral                32    'd1  
+# -----------------------------------------------------------------
 # 
 # UVM_INFO .\TB\sv\serdes_driver.sv(25) @ 0: uvm_test_top.tb.serdes.agent.driver [serdes_driver] start of simulation for uvm_test_top.tb.serdes.agent.driver
-# UVM_INFO .\TB\sv\serdes_monitor.sv(29) @ 0: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] start of simulation for uvm_test_top.tb.serdes.agent.monitor
+# UVM_INFO .\TB\sv\serdes_monitor.sv(26) @ 0: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] start of simulation for uvm_test_top.tb.serdes.agent.monitor
 # UVM_INFO .\TB\sv\serdes_agent.sv(42) @ 0: uvm_test_top.tb.serdes.agent [serdes_agent] start of simulation for uvm_test_top.tb.serdes.agent
 # UVM_INFO .\TB\sv\serdes_env.sv(21) @ 0: uvm_test_top.tb.serdes [serdes_env] start of simulation for uvm_test_top.tb.serdes
-# UVM_INFO .\TB\tb\serdes_tb.sv(25) @ 0: uvm_test_top.tb [serdes_tb] start of simulation for uvm_test_top.tb
+# UVM_INFO .\TB\tb\serdes_tb.sv(27) @ 0: uvm_test_top.tb [serdes_tb] start of simulation for uvm_test_top.tb
 # UVM_INFO .\TB\tb\serdes_test_lib.sv(35) @ 0: uvm_test_top [serdes_5_packet_test] Run Phase of Test is being executed!
 # UVM_INFO .\TB\tb\serdes_test_lib.sv(38) @ 0: uvm_test_top [serdes_5_packet_test] Raise objection in run phase
 # UVM_INFO .\TB\tb\serdes_test_lib.sv(40) @ 0: uvm_test_top [serdes_5_packet_test] Drop objection in run phase
-# UVM_INFO .\TB\tb\serdes_tb.sv(29) @ 0: uvm_test_top.tb [serdes_tb] Testbench Run Phase is begin executed!
+# UVM_INFO .\TB\tb\serdes_tb.sv(31) @ 0: uvm_test_top.tb [serdes_tb] Testbench Run Phase is begin executed!
 # UVM_INFO C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1390) @ 0: uvm_test_top.tb.serdes.agent.sequencer [PHASESEQ] Starting default sequence 'serdes_5_packet_sequences' for phase 'run'
-# UVM_INFO .\TB\sv\serdes_monitor.sv(37) @ 0: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] Detected Reset Done
+# UVM_INFO .\TB\sv\serdes_monitor.sv(35) @ 0: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] Detected Reset Done
 # UVM_INFO .\TB\sv\serdes_driver.sv(29) @ 0: uvm_test_top.tb.serdes.agent.driver [serdes_driver] Driver is running
 # UVM_INFO .\TB\sv\serdes_sequences.sv(28) @ 0: uvm_test_top.tb.serdes.agent.sequencer@@serdes_5_packet_sequences [serdes_5_packet_sequences] raise objection
 # UVM_INFO .\TB\sv\serdes_sequences.sv(103) @ 0: uvm_test_top.tb.serdes.agent.sequencer@@serdes_5_packet_sequences [serdes_5_packet_sequences] Executing serdes_one_sequences
@@ -99,7 +100,7 @@
 # --------------------------------------------------------------------------------------------------------------------
 # Name                           Type           Size  Value                                                           
 # --------------------------------------------------------------------------------------------------------------------
-# req                            serdes_packet  -     @687                                                            
+# req                            serdes_packet  -     @682                                                            
 #   payload_A                    integral       32    'b10000001                                                      
 #   payload_B                    integral       32    'b11110110                                                      
 #   payload                      integral       32    'b11110110                                                      
@@ -111,25 +112,13 @@
 #   sequencer                    string         38    uvm_test_top.tb.serdes.agent.sequencer                          
 # --------------------------------------------------------------------------------------------------------------------
 # 
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 16000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_B payload=f6
-# UVM_INFO .\TB\sv\serdes_monitor.sv(49) @ 195000: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] Monitor collected packet from B: 000000f6
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(47) @ 195000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_B payload=f6
-# ---------------------------------------------
-# Name          Type           Size  Value     
-# ---------------------------------------------
-# ser_pkt       serdes_packet  -     @682      
-#   payload_A   integral       32    'b0       
-#   payload_B   integral       32    'b11110110
-#   payload     integral       32    'b11110110
-#   dir         src            32    SRC_B     
-#   begin_time  time           64    0         
-#   end_time    time           64    195000    
-# ---------------------------------------------
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 25000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_B payload=f6
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(49) @ 195000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_B payload=f6
 # UVM_INFO .\TB\sv\serdes_driver.sv(49) @ 205000: uvm_test_top.tb.serdes.agent.driver [serdes_driver] Sending Packet :
 # --------------------------------------------------------------------------------------------------------------------
 # Name                           Type           Size  Value                                                           
 # --------------------------------------------------------------------------------------------------------------------
-# req                            serdes_packet  -     @739                                                            
+# req                            serdes_packet  -     @729                                                            
 #   payload_A                    integral       32    'b11111100                                                      
 #   payload_B                    integral       32    'b10110011                                                      
 #   payload                      integral       32    'b10110011                                                      
@@ -141,123 +130,75 @@
 #   sequencer                    string         38    uvm_test_top.tb.serdes.agent.sequencer                          
 # --------------------------------------------------------------------------------------------------------------------
 # 
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 205000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_B payload=b3
-# UVM_INFO .\TB\sv\serdes_monitor.sv(49) @ 455000: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] Monitor collected packet from B: 000000b3
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(47) @ 455000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_B payload=b3
-# ---------------------------------------------
-# Name          Type           Size  Value     
-# ---------------------------------------------
-# ser_pkt       serdes_packet  -     @733      
-#   payload_A   integral       32    'b0       
-#   payload_B   integral       32    'b10110011
-#   payload     integral       32    'b10110011
-#   dir         src            32    SRC_B     
-#   begin_time  time           64    195000    
-#   end_time    time           64    455000    
-# ---------------------------------------------
-# UVM_INFO .\TB\sv\serdes_driver.sv(49) @ 465000: uvm_test_top.tb.serdes.agent.driver [serdes_driver] Sending Packet :
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 215000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_B payload=b3
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(49) @ 385000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_B payload=b3
+# UVM_INFO .\TB\sv\serdes_driver.sv(49) @ 395000: uvm_test_top.tb.serdes.agent.driver [serdes_driver] Sending Packet :
 # --------------------------------------------------------------------------------------------------------------------
 # Name                           Type           Size  Value                                                           
 # --------------------------------------------------------------------------------------------------------------------
-# req                            serdes_packet  -     @763                                                            
+# req                            serdes_packet  -     @749                                                            
 #   payload_A                    integral       32    'b10110011                                                      
 #   payload_B                    integral       32    'b1011001                                                       
 #   payload                      integral       32    'b10110011                                                      
 #   dir                          src            32    SRC_A                                                           
-#   begin_time                   time           64    465000                                                          
+#   begin_time                   time           64    395000                                                          
 #   depth                        int            32    'd2                                                             
 #   parent sequence (name)       string         25    serdes_5_packet_sequences                                       
 #   parent sequence (full name)  string         64    uvm_test_top.tb.serdes.agent.sequencer.serdes_5_packet_sequences
 #   sequencer                    string         38    uvm_test_top.tb.serdes.agent.sequencer                          
 # --------------------------------------------------------------------------------------------------------------------
 # 
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 465000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_A payload=b3
-# UVM_INFO .\TB\sv\serdes_monitor.sv(49) @ 645000: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] Monitor collected packet from A: 000000b3
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(47) @ 645000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_A payload=b3
-# ---------------------------------------------
-# Name          Type           Size  Value     
-# ---------------------------------------------
-# ser_pkt       serdes_packet  -     @759      
-#   payload_A   integral       32    'b10110011
-#   payload_B   integral       32    'b0       
-#   payload     integral       32    'b10110011
-#   dir         src            32    SRC_A     
-#   begin_time  time           64    455000    
-#   end_time    time           64    645000    
-# ---------------------------------------------
-# UVM_INFO .\TB\sv\serdes_driver.sv(49) @ 655000: uvm_test_top.tb.serdes.agent.driver [serdes_driver] Sending Packet :
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 405000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_A payload=b3
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(49) @ 575000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_A payload=b3
+# UVM_INFO .\TB\sv\serdes_driver.sv(49) @ 585000: uvm_test_top.tb.serdes.agent.driver [serdes_driver] Sending Packet :
 # --------------------------------------------------------------------------------------------------------------------
 # Name                           Type           Size  Value                                                           
 # --------------------------------------------------------------------------------------------------------------------
-# req                            serdes_packet  -     @787                                                            
+# req                            serdes_packet  -     @769                                                            
 #   payload_A                    integral       32    'b10101011                                                      
 #   payload_B                    integral       32    'b11111101                                                      
 #   payload                      integral       32    'b11111101                                                      
 #   dir                          src            32    SRC_B                                                           
-#   begin_time                   time           64    655000                                                          
+#   begin_time                   time           64    585000                                                          
 #   depth                        int            32    'd2                                                             
 #   parent sequence (name)       string         25    serdes_5_packet_sequences                                       
 #   parent sequence (full name)  string         64    uvm_test_top.tb.serdes.agent.sequencer.serdes_5_packet_sequences
 #   sequencer                    string         38    uvm_test_top.tb.serdes.agent.sequencer                          
 # --------------------------------------------------------------------------------------------------------------------
 # 
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 655000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_B payload=fd
-# UVM_INFO .\TB\sv\serdes_monitor.sv(49) @ 845000: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] Monitor collected packet from B: 000000fd
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(47) @ 845000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_B payload=fd
-# ---------------------------------------------
-# Name          Type           Size  Value     
-# ---------------------------------------------
-# ser_pkt       serdes_packet  -     @783      
-#   payload_A   integral       32    'b0       
-#   payload_B   integral       32    'b11111101
-#   payload     integral       32    'b11111101
-#   dir         src            32    SRC_B     
-#   begin_time  time           64    645000    
-#   end_time    time           64    845000    
-# ---------------------------------------------
-# UVM_INFO .\TB\sv\serdes_driver.sv(49) @ 855000: uvm_test_top.tb.serdes.agent.driver [serdes_driver] Sending Packet :
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 595000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_B payload=fd
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(49) @ 765000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_B payload=fd
+# UVM_INFO .\TB\sv\serdes_driver.sv(49) @ 775000: uvm_test_top.tb.serdes.agent.driver [serdes_driver] Sending Packet :
 # --------------------------------------------------------------------------------------------------------------------
 # Name                           Type           Size  Value                                                           
 # --------------------------------------------------------------------------------------------------------------------
-# req                            serdes_packet  -     @811                                                            
+# req                            serdes_packet  -     @789                                                            
 #   payload_A                    integral       32    'b100001                                                        
 #   payload_B                    integral       32    'b11101100                                                      
 #   payload                      integral       32    'b11101100                                                      
 #   dir                          src            32    SRC_B                                                           
-#   begin_time                   time           64    855000                                                          
+#   begin_time                   time           64    775000                                                          
 #   depth                        int            32    'd2                                                             
 #   parent sequence (name)       string         25    serdes_5_packet_sequences                                       
 #   parent sequence (full name)  string         64    uvm_test_top.tb.serdes.agent.sequencer.serdes_5_packet_sequences
 #   sequencer                    string         38    uvm_test_top.tb.serdes.agent.sequencer                          
 # --------------------------------------------------------------------------------------------------------------------
 # 
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 855000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_B payload=ec
-# UVM_INFO .\TB\sv\serdes_monitor.sv(49) @ 1105000: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] Monitor collected packet from B: 000000ec
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(47) @ 1105000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_B payload=ec
-# ---------------------------------------------
-# Name          Type           Size  Value     
-# ---------------------------------------------
-# ser_pkt       serdes_packet  -     @807      
-#   payload_A   integral       32    'b0       
-#   payload_B   integral       32    'b11101100
-#   payload     integral       32    'b11101100
-#   dir         src            32    SRC_B     
-#   begin_time  time           64    845000    
-#   end_time    time           64    1105000   
-# ---------------------------------------------
-# UVM_INFO .\TB\sv\serdes_sequences.sv(48) @ 1115000: uvm_test_top.tb.serdes.agent.sequencer@@serdes_5_packet_sequences [serdes_5_packet_sequences] drop objection
-# UVM_INFO C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1243) @ 1115200: reporter [TEST_DONE] All end-of-test objections have been dropped. Calling stop tasks
-# UVM_INFO C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 1115200: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(54) @ 1115200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Checking scoreboard (FIFO compare)
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(66) @ 1115200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_B payload=f6
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(66) @ 1115200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_B payload=b3
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(66) @ 1115200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_A payload=b3
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(66) @ 1115200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_B payload=fd
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(66) @ 1115200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_B payload=ec
-# UVM_INFO .\TB\tb\serdes_test_lib.sv(44) @ 1115200: uvm_test_top [serdes_5_packet_test] Check config usage at check phase
-# UVM_INFO .\TB\sv\serdes_monitor.sv(62) @ 1115200: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] Report: SerDes Monitor Collected 5 Packets
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(109) @ 1115200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Scoreboard summary: packets_in=5 packets_out=5 pass=5 fail=0
-# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(113) @ 1115200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Status:
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(36) @ 785000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Expected packet queued: dir=SRC_B payload=ec
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(49) @ 955000: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Actual packet queued: dir=SRC_B payload=ec
+# UVM_INFO .\TB\sv\serdes_sequences.sv(48) @ 965000: uvm_test_top.tb.serdes.agent.sequencer@@serdes_5_packet_sequences [serdes_5_packet_sequences] drop objection
+# UVM_INFO C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1243) @ 965200: reporter [TEST_DONE] All end-of-test objections have been dropped. Calling stop tasks
+# UVM_INFO C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 965200: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(61) @ 965200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Checking scoreboard (FIFO compare)
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(73) @ 965200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_B payload=f6
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(73) @ 965200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_B payload=b3
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(73) @ 965200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_A payload=b3
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(73) @ 965200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_B payload=fd
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(73) @ 965200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] MATCH: dir=SRC_B payload=ec
+# UVM_INFO .\TB\tb\serdes_test_lib.sv(44) @ 965200: uvm_test_top [serdes_5_packet_test] Check config usage at check phase
+# UVM_INFO .\TB\sv\serdes_monitor.sv(64) @ 965200: uvm_test_top.tb.serdes.agent.monitor [serdes_monitor] Report: SerDes Monitor observed 5 transactions
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(124) @ 965200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Scoreboard summary: packets_in=5 packets_out=5 pass=5 fail=0
+# UVM_INFO .\TB\tb\..\sv\serdes_scoreboard.sv(131) @ 965200: uvm_test_top.tb.serdes_scb [serdes_scoreboard] Status:
 # 
 # Simulation PASSED
 # 
@@ -265,7 +206,7 @@
 # --- UVM Report Summary ---
 # 
 # ** Report counts by severity
-# UVM_INFO :   69
+# UVM_INFO :   64
 # UVM_WARNING :    0
 # UVM_ERROR :    0
 # UVM_FATAL :    0
@@ -281,27 +222,27 @@
 # [serdes_agent]     2
 # [serdes_driver]     9
 # [serdes_env]     1
-# [serdes_monitor]     8
+# [serdes_monitor]     3
 # [serdes_scoreboard]    18
 # [serdes_tb]     3
 # ** Note: $finish    : C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 1115200 ps  Iteration: 53  Instance: /tb_top
+#    Time: 965200 ps  Iteration: 53  Instance: /tb_top
 # Break in Task std/mailbox::get at C:/questasim64_10.7c/win64/../verilog_src/std/std.sv line 41
-#  coverage save -onexit ./wlf_out/serdes_5_packet_test.ucdb
+#  coverage save -onexit ./cov_out/serdes_5_packet_test.ucdb
 #  quit -sim
 # Saving coverage database on exit...
-# End time: 15:58:41 on Aug 11,2026, Elapsed time: 0:00:04
+# End time: 23:00:25 on Aug 16,2026, Elapsed time: 0:00:08
 # Errors: 0, Warnings: 0
 # 
 # QuestaSim-64 vcover 10.7c Coverage Utility 2018.08 Aug 18 2018
-# Start time: 15:58:41 on Aug 11,2026
-# vcover merge serdes_all.ucdb ./wlf_out/serdes_5_packet_test.ucdb ./wlf_out/serdes_one_test.ucdb ./wlf_out/serdes_random_test.ucdb ./wlf_out/serdes_zero_test.ucdb 
+# Start time: 23:00:25 on Aug 16,2026
+# vcover merge serdes_all.ucdb ./cov_out/serdes_5_packet_test.ucdb ./cov_out/serdes_one_test.ucdb ./cov_out/serdes_random_test.ucdb ./cov_out/serdes_zero_test.ucdb 
 # QuestaSim-64 vcover 10.7c Coverage Utility 2018.08 Aug 18 2018
-# Merging file ./wlf_out/serdes_5_packet_test.ucdb
-# Merging file ./wlf_out/serdes_one_test.ucdb
-# Merging file ./wlf_out/serdes_random_test.ucdb
-# Merging file ./wlf_out/serdes_zero_test.ucdb
+# Merging file ./cov_out/serdes_5_packet_test.ucdb
+# Merging file ./cov_out/serdes_one_test.ucdb
+# Merging file ./cov_out/serdes_random_test.ucdb
+# Merging file ./cov_out/serdes_zero_test.ucdb
 # Writing merged result to serdes_all.ucdb
 # 
-# End time: 15:58:42 on Aug 11,2026, Elapsed time: 0:00:01
+# End time: 23:00:25 on Aug 16,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0

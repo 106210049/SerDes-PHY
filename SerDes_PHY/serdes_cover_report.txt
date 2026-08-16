@@ -3,35 +3,35 @@ COVERGROUP COVERAGE:
 Covergroup                                             Metric       Goal    Status               
                                                                                               
 -----------------------------------------------------------------------------------------------
- TYPE /serdes_pkg/serdes_packet/cg_serdes_packet       91.66%        100    Uncovered            
-    covered/total bins:                                     9         10                      
-    missing/total bins:                                     1         10                      
-    % Hit:                                             90.00%        100                      
-    Coverpoint cg_serdes_packet::cp_payload_a         100.00%        100    Covered              
-        covered/total bins:                                 3          3                      
-        missing/total bins:                                 0          3                      
-        % Hit:                                        100.00%        100                      
-        bin zero                                            6          1    Covered              
-        bin random                                          1          1    Covered              
-        bin one                                             1          1    Covered              
-    Coverpoint cg_serdes_packet::cp_payload_b          66.66%        100    Uncovered            
-        covered/total bins:                                 2          3                      
-        missing/total bins:                                 1          3                      
-        % Hit:                                         66.66%        100                      
-        bin zero                                            3          1    Covered              
-        bin random                                          5          1    Covered              
+ TYPE /serdes_pkg/serdes_packet/cg_serdes_packet        0.00%        100    ZERO                 
+    covered/total bins:                                     0         10                      
+    missing/total bins:                                    10         10                      
+    % Hit:                                              0.00%        100                      
+    Coverpoint cg_serdes_packet::cp_payload_a           0.00%        100    ZERO                 
+        covered/total bins:                                 0          3                      
+        missing/total bins:                                 3          3                      
+        % Hit:                                          0.00%        100                      
+        bin zero                                            0          1    ZERO                 
+        bin random                                          0          1    ZERO                 
         bin one                                             0          1    ZERO                 
-    Coverpoint cg_serdes_packet::cp_dir               100.00%        100    Covered              
-        covered/total bins:                                 2          2                      
-        missing/total bins:                                 0          2                      
-        % Hit:                                        100.00%        100                      
-        bin src_A                                           3          1    Covered              
-        bin src_B                                           5          1    Covered              
-    Cross cg_serdes_packet::cross_serdes_dir          100.00%        100    Covered              
-        covered/total bins:                                 2          2                      
-        missing/total bins:                                 0          2                      
-        % Hit:                                        100.00%        100                      
-        bin packet_src_A                                    3          1    Covered              
-        bin packet_src_B                                    5          1    Covered              
+    Coverpoint cg_serdes_packet::cp_payload_b           0.00%        100    ZERO                 
+        covered/total bins:                                 0          3                      
+        missing/total bins:                                 3          3                      
+        % Hit:                                          0.00%        100                      
+        bin zero                                            0          1    ZERO                 
+        bin random                                          0          1    ZERO                 
+        bin one                                             0          1    ZERO                 
+    Coverpoint cg_serdes_packet::cp_dir                 0.00%        100    ZERO                 
+        covered/total bins:                                 0          2                      
+        missing/total bins:                                 2          2                      
+        % Hit:                                          0.00%        100                      
+        bin src_A                                           0          1    ZERO                 
+        bin src_B                                           0          1    ZERO                 
+    Cross cg_serdes_packet::cross_serdes_dir            0.00%        100    ZERO                 
+        covered/total bins:                                 0          2                      
+        missing/total bins:                                 2          2                      
+        % Hit:                                          0.00%        100                      
+        bin packet_src_A                                    0          1    ZERO                 
+        bin packet_src_B                                    0          1    ZERO                 
 
-TOTAL COVERGROUP COVERAGE: 91.66%  COVERGROUP TYPES: 1
+TOTAL COVERGROUP COVERAGE: 0.00%  COVERGROUP TYPES: 1

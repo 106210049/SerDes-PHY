@@ -17,8 +17,10 @@ class serdes_tb extends uvm_env;
     endfunction: build_phase
 
     function void connect_phase(uvm_phase phase);
-        serdes.agent.monitor.item_collected_port.connect(serdes_scb.mon_imp);
-        serdes.agent.driver.req_ap.connect(serdes_scb.exp_imp);
+        serdes.agent.monitor.exp_ap.connect(serdes_scb.exp_imp);
+        serdes.agent.monitor.mon_ap.connect(serdes_scb.mon_imp);
+        // serdes.agent.driver.req_ap.connect(serdes_scb.exp_imp);
+
     endfunction: connect_phase
 
     function void start_of_simulation_phase(uvm_phase phase);

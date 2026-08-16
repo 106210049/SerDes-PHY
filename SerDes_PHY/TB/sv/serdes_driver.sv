@@ -3,11 +3,11 @@ class serdes_driver extends uvm_driver #(serdes_packet);
 
     int num_pkg_sent;
     virtual interface serdes_if vif;
-    uvm_analysis_port #(serdes_packet) req_ap;
+    // uvm_analysis_port #(serdes_packet) req_ap;
 
     function new(string name = "serdes_driver", uvm_component parent);
         super.new(name, parent);
-        req_ap = new("req_ap", this);
+        // req_ap = new("req_ap", this);
     endfunction: new
 
     virtual function void build_phase(uvm_phase phase);
@@ -42,14 +42,14 @@ class serdes_driver extends uvm_driver #(serdes_packet);
     endtask: run_phase
 
     task send_packet(serdes_packet packet);
-        serdes_packet exp_pkt;
+        // serdes_packet exp_pkt;
         bit [31:0] tx_payload;
 
         tx_payload = packet.get_payload_for_dir(packet.dir);
         `uvm_info(get_type_name(), $sformatf("Sending Packet :\n%s", packet.sprint()), UVM_HIGH)
-        exp_pkt = serdes_packet::type_id::create("exp_pkt");
-        $cast(exp_pkt, packet.clone()); 
-        req_ap.write(exp_pkt);
+        // exp_pkt = serdes_packet::type_id::create("exp_pkt");
+        // $cast(exp_pkt, packet.clone()); 
+        // req_ap.write(exp_pkt);
         fork 
             begin
                 case(packet.dir)

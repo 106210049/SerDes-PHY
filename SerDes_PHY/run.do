@@ -3,24 +3,19 @@
 # Setup paths
 set uvm_path C:/questasim64_10.7c/verilog_src/uvm-1.1d/src
 set wlf_dir ./wlf_out
+set cov_dir ./cov_out
 set log_dir ./logs
 
 # Dọn dẹp thư mục cũ
-if {[file exists $wlf_dir]} {
-    foreach f [glob -nocomplain -directory $wlf_dir *] {
-        file delete -force $f
+foreach dir [list $wlf_dir $cov_dir $log_dir] {
+    if {[file exists $dir]} {
+        foreach f [glob -nocomplain -directory $dir *] {
+            file delete -force $f
+        }
+        file delete -force $dir
     }
-    file delete -force $wlf_dir
+    file mkdir $dir
 }
-file mkdir $wlf_dir
-
-if {[file exists $log_dir]} {
-    foreach f [glob -nocomplain -directory $log_dir *] {
-        file delete -force $f
-    }
-    file delete -force $log_dir
-}
-file mkdir $log_dir
 
 # Xóa coverage tổng hợp cũ
 file delete -force serdes_all.ucdb
@@ -43,7 +38,7 @@ set TESTS {
 # Chạy từng test
 foreach t $TESTS {
     set wlf_file "$wlf_dir/${t}.wlf"
-    set ucdb_file "$wlf_dir/${t}.ucdb"
+    set ucdb_file "$cov_dir/${t}.ucdb"
     set log_file "$log_dir/${t}.log"
 
     puts ">>> Running test: $t"
@@ -54,12 +49,12 @@ foreach t $TESTS {
          "+UVM_VERBOSITY=UVM_FULL" \
          "+UVM_TR_RECORD" \
          -onfinish final \
-         -do "transcript file $log_file; run -all; coverage save -onexit $ucdb_file; quit -sim;" \
+         -do "transcript file $log_file; log -r /*; run -all; coverage save -onexit $ucdb_file; quit -sim;" \
          -debugDB
 }
 
 # Merge coverage
-vcover merge serdes_all.ucdb $wlf_dir/*.ucdb
+vcover merge serdes_all.ucdb $cov_dir/*.ucdb
 
 # Report coverage
 if {[file exists serdes_all.ucdb]} {

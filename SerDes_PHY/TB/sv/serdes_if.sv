@@ -107,5 +107,20 @@ interface serdes_if (input logic clk, input logic rst_n);
         end
     endtask
 
+    // Task monitor quan sát phía input (expected)
+    task automatic observe_input(output bit [31:0] payload, output src direction);
+        @(posedge i_enc_A 
+        or posedge i_enc_B);
+        if (i_enc_A) begin
+            payload   = data_in_A;
+            direction = SRC_A; // A gửi sang B
+        end
+        else if(i_enc_B) begin
+            payload   = data_in_B;
+            direction = SRC_B; // B gửi sang A
+        end
+    endtask
+
+
 
 endinterface : serdes_if

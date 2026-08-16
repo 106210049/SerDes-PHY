@@ -60,17 +60,11 @@ module serializer_fsm (
             SHIFT: begin
                 ser_shift  = 1'b1;
                 if (count_done)
-                    next_state = ENCODER;
+                    next_state = IDLE;
                 else
                     next_state = SHIFT;
             end
 
-//             FINISH: begin
-//                 start_o    = 1'b0;
-//                 ser_shift  = 1'b0;
-//               	ser_finish = 1'b1;
-//                 next_state = ENCODER;
-//             end
         endcase
     end
 
