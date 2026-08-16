@@ -61,8 +61,9 @@ Cross coverage: Combine payload and source direction.
 <img src="Image/Quad-lane Full duplex Serializer_Deserializer(SerDes)-Deserializer.drawio.png" width="700" >  
 
 ### Serializer CTL Block
+
 <img src="Image/Quad-lane Full duplex Serializer_Deserializer(SerDes)-Serializer CTL.drawio.png" width="700" >  
 
 ### Deserializer CTL Block
-<img src="Image/Quad-lane Full duplex Serializer_Deserializer(SerDes)-Deserializer CTL.drawio.png" width="700" >  
 
+<img src="Image/Quad-lane Full duplex Serializer_Deserializer(SerDes)-Deserializer CTL.drawio.png" width="700" >  
